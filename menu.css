@@ -1,0 +1,57 @@
+.menu-hlavni-menu-container > ul {
+    float: right;
+}
+
+.menu-hlavni-menu-container ul {
+    list-style-type: none;
+    margin: 0px;
+    padding: 0px;
+}
+
+.menu-hlavni-menu-container > ul > li {
+    text-align: center;
+    line-height: 40px;
+    margin-left: 70px;
+}
+
+.menu-hlavni-menu-container > ul li ul li {
+    width: 150px;
+    text-align: left;
+    background-color: black;
+}
+
+.menu-hlavni-menu-container ul li:hover {
+    cursor: pointer;
+    position: relative;
+}
+.menu-hlavni-menu-container ul li:hover > ul {
+    display: block;
+}
+.menu-hlavni-menu-container ul li:hover > a {
+    color: #777;
+}
+.menu-hlavni-menu-container > ul > li > a {
+    cursor: pointer;
+    display: block;
+    outline: none;
+    width: 100%;
+    text-decoration: none;
+}
+
+.menu-hlavni-menu-container > ul > li {
+    float: left;
+}
+.menu-hlavni-menu-container a {
+    color: white;
+}
+.menu-hlavni-menu-container > ul li ul {
+    display: none;
+    position: absolute;
+    left: 0;
+    top: 100%;
+    width: 100%;
+    z-index: 2000;
+}
+.menu-hlavni-menu-container > ul li ul li > a {
+    text-decoration: none;
+}

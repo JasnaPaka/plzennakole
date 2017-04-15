@@ -4,6 +4,10 @@ html, body {
     background-color: #d7d6d6;
 }
 
+.clear {
+    clear: both;
+}
+
 #wrapper {
     max-width: 1160px;
     background-color: white;
@@ -12,4 +16,13 @@ html, body {
 
 #header {
     background-color: black;
+}
+
+#logo-container {
+    float: left;
+}
+
+.menu-hlavni-menu-container {
+    float: right;
+
 }

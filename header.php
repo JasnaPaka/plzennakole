@@ -11,6 +11,9 @@
 <body <?php body_class(); ?>>
 	<div id="wrapper">
 		<div id="header">
-			asdf dsf sdsf asdf ds
-
+            <div id="logo-container">
+                <img src="<?php print get_stylesheet_directory_uri() ?>/images/pnk-logo.svg" alt="Logo webu" />
+            </div>
+			<?php wp_nav_menu(); ?>
+            <div class="clear"></div>
 		</div>

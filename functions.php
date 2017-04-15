@@ -15,5 +15,6 @@ add_action('after_setup_theme', 'plzennakole_setup');
 
 function plzennakole_scripts() {
 	wp_enqueue_style('plzennakole-style', get_stylesheet_uri());
+	wp_enqueue_style('plzennakole-menu-style', get_theme_file_uri( 'menu.css' ));
 }
 add_action('wp_enqueue_scripts', 'plzennakole_scripts');
