@@ -1,0 +1,15 @@
+html, body {
+    margin: 0;
+    padding: 0;
+    background-color: #d7d6d6;
+}
+
+#wrapper {
+    max-width: 1160px;
+    background-color: white;
+    margin: auto;
+}
+
+#header {
+    background-color: black;
+}
